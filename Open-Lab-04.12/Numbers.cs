@@ -1,4 +1,6 @@
-﻿using System;
+using NUnitLite;
+using System;
+using System.Linq;
 
 namespace Open_Lab_04._12
 {
@@ -6,7 +8,8 @@ namespace Open_Lab_04._12
     {
         public int MissingNum(int[] nums)
         {
-            throw new NotImplementedException();
+            int sum = nums.Sum();
+            return 55 - sum;
         }
     }
 }
